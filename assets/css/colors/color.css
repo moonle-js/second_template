@@ -1,0 +1,13 @@
+/* Firstly we need create colors from figma for easier use */
+
+:root{
+    /* Will be used for texts */
+    --black_text: #303031;
+    --white_text: #fff;
+    --gray_text: #66645E;
+    --green_text: #71A894;
+    /* Will be used for button backgrounds */
+    --button_green: #71A894;
+    /* Used for borders */
+    --gray_border: #E7E7E7;
+}

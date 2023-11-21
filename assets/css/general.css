@@ -1,0 +1,7 @@
+/* Setting the first font for all page */
+
+body{
+    font-family: "Mine", serif;
+    font-size: 18px;
+    font-weight: 600;
+}

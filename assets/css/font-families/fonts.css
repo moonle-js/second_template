@@ -1,0 +1,14 @@
+/* Only one family will be used with every weight */
+@font-face{
+    font-family: "Mine";
+    src: url('../../fonts/Roboto/Roboto-Black.ttf');
+    src: url('../../fonts/Roboto/Roboto-BlackItalic.ttf');
+    src: url('../../fonts/Roboto/Roboto-Bold.ttf');
+    src: url('../../fonts/Roboto/Roboto-BoldItalic.ttf');
+    src: url('../../fonts/Roboto/Roboto-Italic.ttf');
+    src: url('../../fonts/Roboto/Roboto-Light.ttf');
+    src: url('../../fonts/Roboto/Roboto-LightItalic.ttf');
+    src: url('../../fonts/Roboto/Roboto-Medium.ttf');
+    src: url('../../fonts/Roboto/Roboto-MediumItalic.ttf');
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
