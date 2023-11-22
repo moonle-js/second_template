@@ -12,3 +12,9 @@
     src: url('../../fonts/Roboto/Roboto-MediumItalic.ttf');
     src: url('../../fonts/Roboto/Roboto-Regular.ttf');
 }
+
+@font-face{
+    font-family: "MineOpen";
+    src: url("../../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+    src: url("../../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
