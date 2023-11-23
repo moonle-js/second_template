@@ -18,7 +18,9 @@ header{
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 80%;
+        max-width: 1328px;
+        min-width: 360px;
+        width: 100%;
         height: 100%;
     }
         header nav ul{
@@ -50,6 +52,9 @@ header{
             header nav ul li:nth-child(1){
                 min-width: 300px;
             }
+            .notYet{
+                cursor: not-allowed;
+            }
                     header nav ul li:nth-child(1) a img{
                         transition: .4s all ease;
                     }
@@ -60,6 +65,7 @@ header{
                     text-align: center;
                     font-weight: 900;
                     font-size: 1.8em;
+                    letter-spacing: .5px
                 }
             header nav ul li:nth-child(2){
                 margin-left: auto;
