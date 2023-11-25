@@ -6,3 +6,11 @@ body{
     font-weight: 600;
     background-color: var(--gray_background);
 }
+
+button{
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 4px var(--black_text);
+}

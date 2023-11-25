@@ -1,0 +1,47 @@
+footer{
+    max-width: 1328px;
+    min-width: 360px;
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+}
+    footer nav{
+        width: 100%;
+        height: 100%;
+    }
+    footer ul{
+        padding: 30px 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        column-gap: 40px;
+        list-style-type: none;
+    }
+        footer ul li:nth-child(1) a{
+            font-family: "MineOpen";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+            color: var(--black_text);
+        }
+        footer ul li a{
+            transition: .4s all ease;
+            text-decoration: none;
+            font-family: "Mine";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.4px;
+            color: var(--black_text);
+        }
+        footer ul li a:hover{
+            color: var(--green_text);
+        }
+        footer ul li:nth-child(2){
+            margin-left: auto;
+        }

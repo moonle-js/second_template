@@ -1,0 +1,10 @@
+.dots{
+    position: absolute;
+    width: 100vw;
+    background: url(../images/Divider.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100px;
+    bottom: 0;
+}
