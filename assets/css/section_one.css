@@ -9,10 +9,10 @@
     .sec_1 .left_side{
         max-width: 608px;
         width: 50%;
-        height: 58%;
+        height: 380px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: flex-start;
         text-align: start;
     }
