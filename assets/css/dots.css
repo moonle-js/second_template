@@ -8,3 +8,32 @@
     height: 100px;
     bottom: 0;
 }
+
+@media screen and (max-width:1350px){
+    section{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    section img{
+        align-self: center;
+    }
+
+    .sec_2 .sec_2_low{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+        .sec_2 .sec_2_low .card{
+            width: 80%;
+        }
+
+
+    .sec_5{
+        min-height: 900px;
+    }
+    .sec_7 .left_side{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}

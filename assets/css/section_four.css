@@ -1,9 +1,10 @@
 /* Start styling the section four */
 
 .sec_4{
-    height: 440px;
+    min-height: 440px;
     margin-bottom: 10vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -14,7 +15,6 @@
     .sec_4 .left_side{
         max-width: 484px;
         height: 412px;
-        width: 50%;
         border: 4px solid var(--black_text);
         border-radius: 20px;
         display: flex;
@@ -137,9 +137,9 @@
             }
 
     .sec_4 .right_side{
-        height: 334px;
+        padding-top: 20px;
+        height: 354px;
         max-width: 644px;
-        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

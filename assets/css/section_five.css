@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 500px;
     height: 500px;
     margin-bottom: 20vh;
 }
@@ -234,3 +235,6 @@
                         color: #fff;
                         text-transform: capitalize;
                     }
+
+
+                    

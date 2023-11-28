@@ -1,9 +1,10 @@
 .sec_3{
-    height: 440px;
+    min-height: 440px;
     margin-bottom: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .sec_3 *{
     transition: .4s all ease;
